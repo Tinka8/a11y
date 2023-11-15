@@ -78,7 +78,7 @@
                 <a href="https://refresher.sk/politika">
                     Politika
                 </a>
-                <div class="divider"></div>
+                <!-- -->
                 <a href="https://refresher.sk/tema/kviz">
                     Kvíz
                 </a>
@@ -103,78 +103,106 @@
                 <a href="https://refresher.sk/tema/filmy-a-serialy">
                     Filmy a seriály
                 </a>
+                <!-- -->
                 <div>
                     News
                 </div>
                 <a href="https://news.refresher.sk/slovensko">
                     Slovensko
                 </a>
-                <a href="https://news.refresher.sk/zahranicie" class="header__bottom-link">
+                <a href="https://news.refresher.sk/zahranicie">
                     Zahraničie
                 </a>
-                <a href="https://news.refresher.sk/ekonomika" class="header__bottom-link">
+                <a href="https://news.refresher.sk/ekonomika">
                     Ekonomika
                 </a>
-                <a href="https://news.refresher.sk/komentare" class="header__bottom-link">
+                <a href="https://news.refresher.sk/komentare">
                     Komentáre
                 </a>
-                <a href="https://news.refresher.sk/rozhovory" class="header__bottom-link">
+                <a href="https://news.refresher.sk/rozhovory">
                     Rozhovory
                 </a>
-                <a href="https://news.refresher.sk/reportaze" class="header__bottom-link">
+                <a href="https://news.refresher.sk/reportaze">
                     Reportáže
                 </a>
-                <div class="header__bottom-link-divider"></div>
-                <a href="https://refresher.sk/tema/vlada-roberta-fica" class="header__bottom-link">Vláda Roberta
-                    Fica</a>
-                <a href="https://refresher.sk/tema/policia-sr" class="header__bottom-link">Polícia SR</a>
-                <a href="https://refresher.sk/tema/dopravne-spravy" class="header__bottom-link">Dopravné
-                    správy</a>
-                <a href="https://refresher.sk/tema/doprava" class="header__bottom-link">Doprava</a>
-            </div>
-            <div class="header__bottom-control-arrow header__bottom-control-arrow--left" style="opacity: 0"
-                data-nav-slider-control="left" data-hidden="1"></div>
-            <div class="header__bottom-control-arrow" data-nav-slider-control="right" data-hidden="0"></div>
-        </div>
-    </div>
-    <div class="header__menu" data-header-menu>
-        <div class="header__menu-head">
-            <i class="icon icon-color-scheme-dark" data-color-scheme-switch></i>
-            <div class="header__menu-head-logo">
-                <a href="https://refresher.sk/" title="Refresher logo">
-                    <i class="icon icon-refresher-badge"></i>
+                <!-- -->>
+                <a href="https://refresher.sk/tema/vlada-roberta-fica">
+                    Vláda Roberta Fica
+                </a>
+                <a href="https://refresher.sk/tema/policia-sr">
+                    Polícia SR
+                </a>
+                <a href="https://refresher.sk/tema/dopravne-spravy">
+                    Dopravné správy
+                </a>
+                <a href="https://refresher.sk/tema/doprava">
+                    Doprava
                 </a>
             </div>
-            <i class="icon icon-menu-x" data-header-menu-close></i>
         </div>
-        <div class="header__menu-search">
-            <form class="header__menu-search-form" action="https://refresher.sk/vyhladavanie" method="get"
-                style="display: block;" data-cy="header-search-form">
-                <input type="search" class="header__menu-search-input" name="q" placeholder="Hľadať"
-                    data-cy="header-search-input">
-                <i class="icon icon-search header__menu-search-icon"></i>
+    </div>
+    <div>
+        <div>
+            <form 
+                action="https://refresher.sk/vyhladavanie" 
+                method="get"
+                data-cy="header-search-form"
+            >
+                <input 
+                    type="search"  
+                    name="q" 
+                    placeholder="Hľadať"
+                    data-cy="header-search-input"
+                >
             </form>
         </div>
-        <div class="header__menu-wrap --search --hide">
-            <div class="header__menu-wrap-container">
-                <div class="search__filter">
-                    <div class="search__filter-label">
+        <div>
+            <div>
+                <div>
+                    <div>
                         Filter vyhľadávania
                     </div>
-                    <div class="search__filter-switch"><label class="switcher --inverted"
-                            data-cy="search-filter-articles"><input type="checkbox" name="exclude[]"
-                                value="articles"><span>Články</span></label></div>
-                    <div class="search__filter-switch"><label class="switcher --inverted"
-                            data-cy="search-filter-topics"><input type="checkbox" name="exclude[]"
-                                value="topics"><span>Témy</span></label></div>
-                    <div class="search__filter-switch"><label class="switcher --inverted"
-                            data-cy="search-filter-users"><input type="checkbox" name="exclude[]"
-                                value="users"><span>Používatelia</span></label></div>
-                    <div class="search__filter-switch"><label class="switcher --inverted"
-                            data-cy="search-filter-movies"><input type="checkbox" name="exclude[]"
-                                value="movies"><span>Filmy a seriály</span></label></div>
+                    <div>
+                        <label data-cy="search-filter-articles">
+                            <input 
+                                type="checkbox" 
+                                name="exclude[]"
+                                value="articles"
+                            >
+                            <span>Články</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label data-cy="search-filter-topics">
+                            <input 
+                                type="checkbox" 
+                                name="exclude[]"
+                                value="topics"
+                            >
+                            <span>Témy</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label data-cy="search-filter-users">
+                            <input 
+                                type="checkbox" 
+                                name="exclude[]"
+                                value="users"
+                            >
+                            <span>Používatelia</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label data-cy="search-filter-movies">
+                            <input 
+                                type="checkbox" 
+                                name="exclude[]"
+                                value="movies"
+                            >
+                            <span>Filmy a seriály</span>
+                        </label>
+                    </div>
                 </div>
-                <div class="search__content"></div>
             </div>
         </div>
         <div class="header__menu-wrap --categories">
